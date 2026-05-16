@@ -87,7 +87,7 @@ jobs:
           $exePath = $exe.FullName
       
           # общий лимит работы job
-          $end = (Get-Date).AddMinutes(150)
+          $end = (Get-Date).AddMinutes(120)
       
           while ((Get-Date) -lt $end) {
             Write-Host "Starting 9hits..."
